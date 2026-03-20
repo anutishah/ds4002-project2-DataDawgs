@@ -40,13 +40,15 @@ This repository contains all data, code, and outputs used to analyze and forecas
 
 ### DATA (folder) contains:
 - `charlottesville_precip_cleaned.csv` (cleaned dataset with precipitation and temperature data)
+- 'Project 2 Data Appendix (1).pdf' (Data Appendix)
+- 'precipdata_initial.csv' (initial dataset)
 
 ### OUTPUT (folder) contains:
 - Time series plots of monthly precipitation  
-- Forecast vs actual comparison plots  
-- Model evaluation metrics (e.g., RMSE values)  
+- Regression Results 
 
 ### SCRIPTS (folder) contains:
+- 'Project2EDA.ipynb' (Exploratory Data Analysis)
 - `Project_2_Code.ipynb`  
   - Data cleaning and preprocessing  
   - Time series aggregation (monthly precipitation)  
@@ -157,10 +159,10 @@ The notebook performs the following steps:
 
 You should confirm your results by checking:
 
-- 📈 Time series plot of precipitation  
-- 📉 Forecast vs actual plot  
-- 📊 Printed RMSE values:
+- Time series plot of precipitation  
+- Forecast vs actual plot  
+- Printed RMSE values:
   - SARIMA RMSE (~2.56 inches)  
   - Seasonal naïve RMSE (~3.39 inches)  
-- 📋 Model summary output (from statsmodels)  
-- 📉 Residual diagnostics (no significant autocorrelation)  
+- Model summary output (from statsmodels)  
+- Residual diagnostics (no significant autocorrelation)  
